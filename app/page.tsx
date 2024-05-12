@@ -1,6 +1,7 @@
 import Navbar from "@/app/components/Navbar";
 import MainArticle from "@/app/components/MainArticle";
 import SideArticles from "@/app/components/SideArticles";
+import BottomArticles from "@/app/components/BottomArticles";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <MainArticle />
       <SideArticles />
       </div>
+      <BottomArticles />
     </main>
   );
 }
